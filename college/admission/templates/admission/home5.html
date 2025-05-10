@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="{% static 'admission/styles2.css' %}">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="{% static 'admission/pp.jpg' %}" alt="" class="profile-picture">
+            <div class="profile-info">
+                <h1>Ford Antonette</h1>
+                <p>Senior Response Strategist, Executive Vice President of Admissions</p>
+            </div>
+        </div>
+        <div class="profile-details">
+            <div class="education-section">
+                <h2>Education</h2>
+                <p><strong>M.Arch:</strong> Southern California Institute of Architecture, 2004</p>
+                <p><strong>B.A:</strong> Sociology and Anthropology, Holy Cross College, 1995</p>
+            </div>
+            <div class="contact-section">
+                <h2>Contact</h2>
+                <p><strong>Phone:</strong> (400) 139-9865</p>
+                <p><strong>Email:</strong> <a href="mailto:fordantonette5@yahoo.com">fordantonette5@yahoo.com</a></p>
+                <p><strong>Campus:</strong> IU Southeast</p>
+                <p><strong>Website:</strong> <a href="https://mywebsite.com" target="_blank">mywebsite.com</a></p>
+            </div>
+        </div>
+        <div class="interests-section">
+            <h2>Interests</h2>
+            <ul>
+                <li>Architecture</li>
+                <li>Social impact design</li>
+                <li>Augmented and virtual reality</li>
+                <li>Digital fabrication</li>
+                <li>Design thinking</li>
+            </ul>
+        </div>
+        <div class="about-section">
+            <h2>About</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam distinctio quod fugit? Culpa iusto commodi eum, veritatis reprehenderit atque quaerat quos necessitatibus minus non molestias, error maiores nemo est vero?</p>
+        </div>
+    </div>
+</body>
+</html>
